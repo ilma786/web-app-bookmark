@@ -1,0 +1,208 @@
+/* Space out content a bit */
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(199,208,208);
+    background: linear-gradient(0deg, rgba(199,208,208,1) 0%, rgba(164,185,162,0.981127485173757) 11%, rgba(219,238,232,1) 37%, rgba(182,208,189,1) 100%);
+    background-size: cover;
+  
+    background-position: center;
+flex-direction: column;
+}
+.container {
+margin-top: 2%;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.well {
+    min-height:20px;
+    padding:19px;
+    margin-top: 0px;
+    margin-bottom:20px;
+    background-color:#f5f5f5;
+    border:1px solid #e3e3e3;
+    border-radius:4px;
+    -moz-box-shadow: -1px 3px 5px rgba(0, 0, 0, .75);
+-webkit-box-shadow: -1px 3px 5px rgba(0, 0, 0, .75);
+box-shadow: -1px 3px 5px rgba(0, 0, 0, .75);
+display: flex;
+justify-content: space-between;
+height: 80px;
+width: 100%;
+    
+}
+
+#siteName {
+margin: 0;
+padding-top: 7px;
+}
+
+.buttons {
+margin: 0;
+padding-top: 2px;
+}
+
+#visit {
+width: 70px;
+height: 37px;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+}
+
+#delete {    
+margin-left: 7px;  
+width: 70px;
+height: 35px;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* Custom page footer */
+.footer {
+padding-top: 19px;
+color: #777;
+border-top: 1px solid #e5e5e5;
+padding-bottom: 0px;
+
+}
+
+#myForm {
+padding-top: 20px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+.container {
+  max-width: 730px;
+}
+}
+.container-narrow > hr {
+margin: 20px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+text-align: center;
+border-bottom: 1px solid #e5e5e5;
+padding-top: 10px;
+    -moz-box-shadow: -1px 3px 5px rgba(0, 0, 0, .75);
+-webkit-box-shadow: -1px 3px 5px rgba(0, 0, 0, .75);
+box-shadow: -1px 3px 5px rgba(0, 0, 0, .75);
+}
+.jumbotron .btn {
+padding: 14px 24px;
+font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+margin: 40px 0;
+}
+.marketing p + h4 {
+margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+/* Remove the padding we set earlier */
+.header,
+.marketing,
+.footer {
+  padding-right: 0;
+  padding-left: 0;
+}
+/* Space out the masthead */
+.header {
+  margin-bottom: 30px;
+        padding-top: 10px;
+}
+/* Remove the bottom border on the jumbotron for visual effect */
+.jumbotron {
+  border-bottom: 0;
+}
+}
+/* tags*/
+.tags-input-wrapper{
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 400px;
+    border: 1px solid #ccc
+}
+.tags-input-wrapper input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 140px;
+    margin-left: 8px;
+}
+.tags-input-wrapper .tag{
+    display: inline-block;
+    background-color: #08cd40;
+    color: white;
+    border-radius: 40px;
+    padding: 0px 3px 0px 7px;
+    margin-right: 5px;
+    margin-bottom:5px;
+    box-shadow: 0 5px 15px -2px rgba(250 , 14 , 126 , .7)
+}
+.tags-input-wrapper .tag a {
+    margin: 0 7px 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+/*table*/
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  .tp{
+    display: inline-block;
+    background-color: #fa0e7e;
+    color: white;
+    border-radius: 40px;
+    padding: 5px 9px 8px 7px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 5px 15px -2px rgb(250 14 126 / 70%);
+  }
